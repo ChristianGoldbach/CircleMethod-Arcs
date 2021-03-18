@@ -68,3 +68,4 @@ plt.rcParams["figure.figsize"] = (10,10)
 for i in range(0, len(farey(9))-2): 
     plt.scatter(globals()['x' + str(i)], globals()['y' + str(i)])
 plt.savefig('hola.eps')
+
